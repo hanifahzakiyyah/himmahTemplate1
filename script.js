@@ -33,8 +33,7 @@ function enableScroll() {
     window.onscroll = ()=>{
     }
 }
-
-// disableScroll()
+disableScroll()
 
 //google sheet, supaya setelah kirim, ga ke app kita
 window.addEventListener("load", function() {
