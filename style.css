@@ -16,7 +16,6 @@ body{
     min-height: 300vh;
     color: var(--orengelap);
     font-weight: 600;
-    touch-action: none;
 }
 
 .hero::before{
