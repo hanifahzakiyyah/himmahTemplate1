@@ -1,0 +1,346 @@
+:root {
+    --oren: #ffd6b5;
+    --orentr: #ffd6b570;
+    --bg : #0a0a0a;
+    --orengelap: #4b3a09;
+    --orengelaptr: #4b3a0956;
+    --textshadow: -1px -1px 2px #ffffff88, 1px 1px 2px #5a4200 ;
+    --sacramento : 'Sacramento', cursive;
+    --KleeOne : 'Klee One', cursive;
+    --boxshadow:  -2px -2px 3px #5a4200 inset, 2px 2px 3px #ffe291 inset;
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: 'Klee One', cursive;
+    min-height: 300vh;
+    color: var(--orengelap);
+    font-weight: 600;
+    touch-action: none;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tangan.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+}
+
+.hero{
+    min-height: 100vh;
+    font-size: 2rem;
+    color: var(--orengelap);
+    text-shadow: var(--textshadow);
+    padding-top: 30vh;
+}
+
+#hero img{
+    width: 20rem;
+    margin: auto;
+}
+i{
+    font-size: 2.5rem;
+    color: var(--orengelap);
+}
+.navbar-nav{
+    gap: 1rem;
+}
+.untuknavbar{
+    background-color: var(--orentr);
+    color: var(--orengelap);
+    padding: none;
+    margin: -1rem auto;
+    backdrop-filter: blur(4px);
+    bottom: 15px;
+}
+.navbar-nav a i:hover {
+    color: white;
+}
+
+
+
+.home {
+    padding-top: 130px;
+}
+.home h2 {
+    font-weight: 600;
+    text-shadow: var(--textshadow);
+    font-size: 2.5rem;
+}
+#home img{
+    width: 25rem;
+    margin: 70px auto;
+}
+
+
+
+#tanggal{
+    padding-top: 100px;
+}
+.tanggal h2 {
+    font-weight: 600;
+    text-shadow: var(--textshadow);
+    font-size: 2.5rem;
+    margin-bottom: 70px;
+}
+.tanggal .card{
+    background-color: #ffffff4a !important;
+    margin: 20px;
+}
+
+.tanggal a i{
+    font-size: 1.3rem;
+    color: var(--oren);
+}
+
+.gambaradab img{
+    width: 100%;
+}
+
+.gambaradab {
+    box-shadow: -2px -2px 5px #fff4d0 inset , 2px 2px 5px #5a4200 inset;
+    margin: 100px auto;
+    width: 85%;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 40px !important;
+}
+
+
+
+
+
+
+
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 98vh;
+    left: 0;
+    height: 900%;
+    width: 100%;
+    background-image: url(img/bg.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat:repeat-y;
+    min-height: 100vh;
+    opacity: 20%;
+    z-index: -1;
+    /* background-color: #0b0404; */
+}
+.mempelai{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background-color: #4b3a09bf;
+    color: var(--oren);
+}
+.perbatasan{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    visibility: visible;
+}
+
+.perbatasan img{
+    width: 50rem;
+    transform-origin: center;
+}
+
+.gambarempat{
+    position: absolute;
+    bottom: -30vw;
+    margin: auto;
+    transform: translateX(-10%);
+}
+.couple img{
+    width: 12rem;
+}
+.couple h3 {
+    font-family: var(--sacramento);
+    font-size: 3rem;
+    color: var(--oren);
+    margin-left: 0;
+}
+.couple p{
+    margin-left: 0;
+    
+}
+.couple{
+    display: flex;
+    flex-direction: column;
+}
+.lapanlima {
+    margin: auto;
+    width: 100%;
+}
+button, .btn {
+    color: var(--oren) !important;
+    background-color: var(--orengelap) !important;
+    padding: 10px;
+    border: none;
+}
+button:hover, .btn:hover{
+    color: var(--orengelap) !important;
+    background-color: var(--oren) !important;
+}
+
+
+
+.konfirmasi {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #4b3a09bf;
+    color: var(--oren);
+}
+.konfirmasi h2 {
+    font-weight: 600;
+    text-shadow: var(--textshadow);
+    font-size: 2.5rem;
+}
+
+
+.gift img{
+    width: 100%;
+}
+.gift li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--oren);
+    color: var(--oren);
+}
+.gift li:last-child{
+    border:none
+}
+.gift ul{
+    box-shadow: -2px -2px 5px #5a4200 inset , 2px 2px 5px #5a4200 inset;
+    padding: 20px;
+    width: 85%;
+}
+.coba{
+    background-color: #9d4c4c;
+}
+
+.card, .card-body {
+    background: none;
+    border: none;
+}
+
+.chat *{
+    margin: 0px auto 300px;
+    padding-top:50px;
+    width: 85%;
+    font-size: 1rem !important;
+}
+
+
+
+
+footer {
+    padding: 3rem;
+    color: var(--oren);
+    background-color: var(--orengelap);
+}
+footer a i{
+    color: var(--oren);
+}
+footer a i:hover{
+    color: white;
+}
+footer a, footer li{
+    text-decoration: none;
+    margin: 7px;
+    list-style: none;
+    font-size: 2rem;
+}
+
+
+
+/* media query */
+/* laptop */
+@media (min-width : 992px ) {
+    html {
+        font-size: 75%;
+    }
+    .perbatasan{
+        visibility: hidden;
+    }
+    body::before{
+        height: 900%;
+    }
+}
+
+/* laptop */
+@media (max-width : 992px ) {
+    html {
+        font-size: 75%;
+    }
+    .perbatasan{
+        visibility: hidden;
+    }
+    body::before{
+        height: 900%;
+    }
+}
+
+/* tablet */
+@media (max-width : 768px ){
+    html {
+        font-size: 65%;
+    }
+    .perbatasan{
+        visibility: hidden;
+    }
+    .sticky-top{
+        overflow: hidden;
+    }
+    body::before{
+        height: 740%;
+    }
+}
+
+/* hp */
+@media (max-width : 500px ){
+    html {
+        font-size: 60%;
+    }
+    .perbatasan{
+        visibility: hidden;
+    }
+    .couple h3, .couple p{
+        margin-left: 30px;
+    }
+    .sticky-top{
+        overflow: hidden;
+    }
+    body::before{
+        height: 740%;
+    }
+}
+/* hp kecil */
+@media (max-width : 350px ){
+    html {
+        font-size: 50%;
+    }
+    .perbatasan{
+        visibility: visible;
+    }
+    .couple h3, .couple p{
+        margin-left: 30px;
+    }
+    .sticky-top{
+        overflow: hidden;
+    }
+}
